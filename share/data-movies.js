@@ -1,6 +1,6 @@
 
 class data_movie{
- // Añada codigo...
+ // Afegiu codi per 
 }
 
 export default new data_movie();
