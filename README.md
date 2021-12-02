@@ -30,7 +30,7 @@ Per enviar l'exercici feu servir el classroom:
 
 2.- El resultats esperats els pot verificar a **results.txt**
 
-## 2era Iteració (2 punts)
+## 2ona Iteració (2 punts)
 
 1.- Codificar **managers/manager-fs.js** perquè pugui llegir un fitxer JSON. (data/movies.json) - Podeu consultar https://sebhastian.com/fs-readfilesync/
 
