@@ -1,5 +1,4 @@
 import movies from '../data/movies.js';
-//import movies from '../managers/manager-fs.js';
 
 class MoviesModel {
     getMovies() {
