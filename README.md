@@ -26,6 +26,6 @@ Per enviar l'exercici feu servir el classroom:
 
 ## Instruccions
 
-1.- **Només** heu de codificar **conrollers/moviesController.js** i **share/data-movies.js** perquè **app.js** no doni errors. 
+1.- **Només** heu de codificar **controllers/moviesController.js** i **share/data-movies.js** perquè **app.js** no doni errors. 
 
-2.- 
+2.- El resultats esperats els pot verificar a **results.txt**
