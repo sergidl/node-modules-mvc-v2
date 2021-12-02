@@ -26,5 +26,5 @@ Per enviar l'exercici feu servir el classroom:
 
 ## Instruccions
 
-1.- **Només** heu de codificar xxxx perquè app.js no d'errors. moviesController.js
+1.- **Només** heu de codificar **moviesController.js** perquè **app.js** no d'errors. 
 2.- 
