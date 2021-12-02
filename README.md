@@ -34,7 +34,7 @@ Per enviar l'exercici feu servir el classroom:
 
 1.- Codificar **managers/manager-fs.js** perquè pugui llegir un fitxer JSON. (data/movies.json) - Podeu consultar https://sebhastian.com/fs-readfilesync/
 
-2.- Modifiqueu **models/moviesModels.js** perquè importi el array movies des de **managers/manager-fs.js**
+2.- Modifiqueu **models/moviesModels.js** perquè importi el array movies des de **managers/manager-fs.js**. No heu de recodificar **només** moficar el import.
 
 3.- Executeu **app.js** ( node app.js) i verifiqueu els resultats amb **results.txt**.
 
