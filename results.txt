@@ -243,7 +243,7 @@ __________________Añade una nueva película  ____________________
   ]
 }
 
-__________________Modifica la película con id:10 ____________________
+__________________Modifica la película con id:3 ____________________
 
 {
   id: 1,
