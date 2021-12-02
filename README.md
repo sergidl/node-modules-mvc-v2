@@ -1,4 +1,4 @@
-## Introducción
+## Introducció
 
 En aquest exercici anem a re-construir una versió nova de Movies.
 
