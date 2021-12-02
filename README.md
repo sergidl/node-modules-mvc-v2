@@ -36,3 +36,5 @@ Per enviar l'exercici feu servir el classroom:
 
 2.- Modifiqueu **models/moviesModels.js** perquè importi el array movies des de **managers/manager-fs.js**
 
+3.- Executeu **app.js** ( node app.js) i verifiqueu els resultats amb **results.txt**.
+
