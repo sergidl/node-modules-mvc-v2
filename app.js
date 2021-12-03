@@ -7,33 +7,44 @@ import {new_movie_update} from './data/newMovie.js';
 // Create / Read / Update / Delete
 
 let allMovies = function (data_movie) {
+    console.log("-----------------ALL------------------------")
         moviesController.getAllMovies(data_movie);
         data_movie.res.forEach((e) => console.log(e));
  }
 
 
 let getMovieId = function (data_movie) {
+    console.log("-------------------ID----------------------")
     moviesController.getMovieById(data_movie);
     data_movie.res.forEach((e) => console.log(e));
+
 }
 
 let createMovie = function (data_movie) {
+    console.log("----------------CREATE-------------------------")
     moviesController.createMovie(data_movie);
     data_movie.res.forEach((e) => console.log(e));
+
 }
 
 let removeMovie = function (data_movie) {
+    console.log("----------------REMOVE-------------------------")
     moviesController.removeMovie(data_movie);
     data_movie.res.forEach((e) => console.log(e));
+
 }
 
 let updateMovie = function (data_movie) {
+    console.log("------------------UPDATE-----------------------")
+
     moviesController.updateMovie(data_movie);
     data_movie.res.forEach((e) => console.log(e));
 }
 
 
 let getMovieBy = function(data_movie){
+    console.log("-------------------BY----------------------")
+
     moviesController.getMovieBy(data_movie);
     data_movie.res.forEach((e) => console.log(e));
 }
