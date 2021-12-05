@@ -1,4 +1,5 @@
-import movies from '../data/movies.js';
+// import movies from '../data/movies.js';
+import movies from "../managers/manager-fs.js";
 import moviesModel from '../models/moviesModel.js';
 
 const getAllMovies = (data_movie) => {
@@ -25,7 +26,7 @@ const updateMovie = (data_movie) => {
 }
 
 const getMovieBy = (data_movie) => {
-   
+    data_movie.res=moviesModel.getMovieBy(data_movie.req);
 }
 
 export default {

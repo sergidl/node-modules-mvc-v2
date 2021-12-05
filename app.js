@@ -7,35 +7,45 @@ import {new_movie_update} from './data/newMovie.js';
 // Create / Read / Update / Delete
 
 let allMovies = function (data_movie) {
-    console.log("-----------------ALL------------------------")
+    console.log()
+    console.log("__________________Devuelve todas las peliculas____________________")
+    console.log()
         moviesController.getAllMovies(data_movie);
         data_movie.res.forEach((e) => console.log(e));
  }
 
 
 let getMovieId = function (data_movie) {
-    console.log("-------------------ID----------------------")
+    console.log()
+    console.log("__________________Devuelve la pelicula con id:2 ____________________")
     moviesController.getMovieById(data_movie);
     data_movie.res.forEach((e) => console.log(e));
 
 }
 
 let createMovie = function (data_movie) {
-    console.log("----------------CREATE-------------------------")
+    console.log()
+    console.log("__________________Añade una nueva película  ____________________")
+    console.log()
     moviesController.createMovie(data_movie);
+    
     data_movie.res.forEach((e) => console.log(e));
 
 }
 
 let removeMovie = function (data_movie) {
-    console.log("----------------REMOVE-------------------------")
+    console.log()
+    console.log("__________________Eliminar la película con id:2 ____________________")
+    console.log()
     moviesController.removeMovie(data_movie);
     data_movie.res.forEach((e) => console.log(e));
 
 }
 
 let updateMovie = function (data_movie) {
-    console.log("------------------UPDATE-----------------------")
+    console.log()
+    console.log("__________________Modifica la película con id:3 ____________________")
+    console.log()
 
     moviesController.updateMovie(data_movie);
     data_movie.res.forEach((e) => console.log(e));
@@ -43,8 +53,9 @@ let updateMovie = function (data_movie) {
 
 
 let getMovieBy = function(data_movie){
-    console.log("-------------------BY----------------------")
-
+    console.log()
+    console.log("_________________Todas las peliculas del año 1994 ____________________")
+    console.log()
     moviesController.getMovieBy(data_movie);
     data_movie.res.forEach((e) => console.log(e));
 }
